@@ -1,2 +1,2 @@
 # tilについて
-「Today I learned (今日学んだこと)」がtilである。
+「Today I learned (今日学んだこと)」の略である。
