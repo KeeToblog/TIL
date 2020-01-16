@@ -1,4 +1,11 @@
-config/environments/production.rb
+```ruby
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :smtp
+- host = 'https://booksharing2019.herokuapp.com/'
++ host = 'https://booksharing2020.herokuapp.com/'
+  config.action_mailer.default_url_options = { host: host }
+  ActionMailer::Base.smtp_settings = {:address        => 'smtp.sendgrid.net',
+````
 
 ## 発生した問題
 - 本番環境でユーザーの新規登録ができなかった（ログインはできた）
