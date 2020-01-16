@@ -1,3 +1,5 @@
+config/environments/production.rb
+
 ## 発生した問題
 - 本番環境でユーザーの新規登録ができなかった（ログインはできた）
 
