@@ -1,3 +1,5 @@
+2019/1/10
+> Booksharing: config/environments/production.rb
 ```ruby
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
